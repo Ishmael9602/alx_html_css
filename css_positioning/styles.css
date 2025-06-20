@@ -1,41 +1,35 @@
-/* styles.css */
-
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-header {
+header, footer {
+  padding: 20px;
   background-color: #007bff;
   color: white;
-  padding: 1rem;
   text-align: center;
 }
 
-.container {
+main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
+  flex: auto;
 }
 
-.sidebar {
-  width: 25%;
+article {
+  flex: 2; 
+  padding: 15px;
   background-color: #f4f4f4;
-  padding: 1rem;
+  overflow-y: auto;
 }
 
-.main-content {
-  width: 70%;
-  background-color: #fff;
-  padding: 1rem;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+aside {
+  flex: 1; 
+  padding: 15px;
+  background-color: #ddd;
+  overflow-y: auto;
 }
