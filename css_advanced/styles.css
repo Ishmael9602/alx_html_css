@@ -328,6 +328,49 @@ main section:nth-of-type(5) > div > div > div {
   color: #555;
   line-height: 1.7;
 }
+/* Footer Section */
+footer {
+  background-color: #071629;
+  color: #fff;
+  padding: 60px;
+  font-size: 0.95rem;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+footer section div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+footer img {
+  width: 120px;
+}
+
+footer i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer i:hover {
+  color: #C271FF;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.6);
+}
 
 /* Footer */
 footer {
