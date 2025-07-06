@@ -295,7 +295,39 @@ main section:nth-of-type(4) button {
 main section:nth-of-type(4) button:hover {
   background-color: #a94ae0;
 }
+/* FAQ Section */
+main section:nth-of-type(5) {
+  background-color: #f9f9f9;
+  padding: 80px 60px;
+  color: #333;
+}
 
+main section:nth-of-type(5) h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #C271FF;
+  margin-bottom: 60px;
+}
+
+main section:nth-of-type(5) > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main section:nth-of-type(5) h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #071629;
+}
+
+main section:nth-of-type(5) > div > div > div {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+}
 
 /* Footer */
 footer {
